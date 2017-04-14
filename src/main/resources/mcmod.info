@@ -1,0 +1,16 @@
+[
+{
+  "modid": "doubledoormod",
+  "name": "Double Door Mod",
+  "description": "Adds double door functionality to vanilla doors.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Dad"],
+  "credits": "The Forge and FML guys for all the hard work, Dad",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
