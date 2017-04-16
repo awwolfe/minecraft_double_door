@@ -1,10 +1,11 @@
-package doubledoor.block;
+package doubledoormod.block;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockDoor;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.EnumHand;
@@ -12,6 +13,17 @@ import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 public class BlockDoubleDoor extends BlockDoor {
 	
+
+
+
+	/* (non-Javadoc)
+	 * @see net.minecraft.block.Block#setCreativeTab(net.minecraft.creativetab.CreativeTabs)
+	 */
+	@Override
+	public Block setCreativeTab(CreativeTabs tab) {
+		// TODO Auto-generated method stub
+		return super.setCreativeTab(tab);
+	}
 
 
 
@@ -107,7 +119,7 @@ public class BlockDoubleDoor extends BlockDoor {
 		public void onBlockAdded(World worldIn, BlockPos pos, IBlockState state) {
 			// TODO Auto-generated method stub
 			super.onBlockAdded(worldIn, pos, state);
-			System.out.println("DoubleDoor onBlockAdded Double Door");
+			//System.out.println("DoubleDoor onBlockAdded Double Door");
 		}
 
 

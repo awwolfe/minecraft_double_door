@@ -1,7 +1,7 @@
 {
-    "parent": "block/door_bottom",
+    "parent": "doubledoormod:block/door_bottom",
     "textures": {
-        "bottom": "blocks/door_wood_lower",
-        "top": "blocks/door_wood_upper"
+        "bottom": "doubledoormod:blocks/door_wood_lower",
+        "top": "doubledoormod:blocks/door_wood_upper"
     }
 }
